@@ -1,0 +1,47 @@
+{
+  "name": "medivoo-server",
+  "version": "0.3.0",
+  "engines": {
+    "node": "12.15.0"
+  },
+  "description": "Backend of Medivoo app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devstart": "nodemon app.js"
+  },
+  "author": "D.R. Nakmouche",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.5",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "express-validator": "^6.6.1",
+    "fs": "0.0.1-security",
+    "geoip-lite": "^1.4.2",
+    "helmet": "^3.22.0",
+    "http-errors": "^1.7.3",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.8.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "npm": "^6.14.9",
+    "path": "^0.12.7",
+    "simple-node-logger": "^18.12.24",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "heroku": "^7.47.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.2"
+  }
+}
